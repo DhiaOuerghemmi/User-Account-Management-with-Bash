@@ -1,0 +1,3 @@
+# Daily rotate at 1am, weekly delete on Sundays at 2am
+0 1 * * * /usr/local/bin/user_mgmt.sh -r >> /var/log/user_mgmt/cron.log 2>&1
+0 2 * * 0 /usr/local/bin/user_mgmt.sh -d >> /var/log/user_mgmt/cron.log 2>&1
