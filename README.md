@@ -1,4 +1,3 @@
-# User-Account-Management-with-Bash
 
 # User Account Management with Bash
 
